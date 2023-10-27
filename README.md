@@ -1,5 +1,5 @@
 # LAB009POOI-2312061
-Grupo: 2
+Grupo: 2 /
 Integrantes: 
 Hinostroza Tinoco, Rodrigo Alonso; 
 Muñoz Herrera, Adriana Ximena; 
