@@ -6,7 +6,7 @@ package com.mycompany.registrodeestudiantes;
 
 /**
  *
- * @author alber
+ * @author Nheiel
  */
 public class Estudiante {
 	
@@ -54,28 +54,5 @@ public class Estudiante {
 	public double getPension() {
 		return pension;
         } 
-	@Override
-	public String toString() {
-		return "Estudiante{" +
-				"codigo=" + codigo +
-				", ciclo=" + ciclo +
-				", nombre='" + nombre + '\'' +
-				", pension=" + pension +
-				'}';
-	}
-        
-          public String getApellido() {
-        // Supondré que el apellido es la última palabra en el nombre
-        String[] partesNombre = nombre.split(" ");
-        if (partesNombre.length > 1) {
-            return partesNombre[partesNombre.length - 1];
-        } else {
-            return ""; // o manejar de otra manera si el nombre no tiene apellidos
-        }
-    }
 
-    void setApellido(String trim) {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
-    }
-}
 
